@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 //Enlazar elementos de la vista con el codigo
 import com.example.myapplicationwearable.databinding.ActivityMainBinding
-import android.widget.Toast.makeText as makeText1
+
 
 class MainActivity : Activity() {
 
