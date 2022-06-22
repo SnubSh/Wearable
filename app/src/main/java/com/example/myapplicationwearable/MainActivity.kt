@@ -2,8 +2,10 @@ package com.example.myapplicationwearable
 
 import android.app.Activity
 import android.os.Bundle
+import android.widget.Toast
 //Enlazar elementos de la vista con el codigo
 import com.example.myapplicationwearable.databinding.ActivityMainBinding
+import android.widget.Toast.makeText as makeText1
 
 class MainActivity : Activity() {
 
@@ -18,6 +20,11 @@ class MainActivity : Activity() {
 
         //Modificar el valor del TextView
         //binding.text.text="La vinculación de vista es una función que te permite escribir más fácilmente código que interactúa con las vistas."
-
+        binding.btnCheck.setOnClickListener{
+            Toast.makeText(this, "Aceptar", Toast.LENGTH_SHORT).show()
+        }
+        binding.btnCancel.setOnClickListener{
+            Toast.makeText(this, "Cancelar", Toast.LENGTH_SHORT).show()
+        }
     }
 }

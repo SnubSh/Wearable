@@ -1,3 +1,10 @@
 <resources>
-    <string name="hello">La vinculación de vista es una función que te permite escribir más fácilmente código que interactúa con las vistas.</string>
+    <string name="hello">
+        La vinculación de vista es una función que te permite escribir más fácilmente
+        código que interactúa con las vistas.
+        La vinculación de vista es una función que te permite escribir más fácilmente
+        código que interactúa con las vistas.
+        La vinculación de vista es una función que te permite escribir más fácilmente
+        código que interactúa con las vistas.
+    </string>
 </resources>

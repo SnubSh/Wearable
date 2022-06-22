@@ -14,11 +14,41 @@
         android:padding="@dimen/inner_frame_layout_padding"
         app:layout_boxedEdges="all">
 
-        <TextView
-            android:id="@+id/text"
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hello" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageButton
+
+            android:background="@android:color/transparent"
+            android:id="@+id/btnCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hello"/>
+            android:layout_gravity="bottom"
+            android:src="@drawable/exito" />
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/error" />
 
     </FrameLayout>
 </androidx.wear.widget.BoxInsetLayout>
